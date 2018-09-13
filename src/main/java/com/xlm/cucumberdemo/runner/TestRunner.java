@@ -7,7 +7,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.BeforeClass;
 
-@CucumberOptions(features = {"./src/main/resources/features/demoQA.feature"},
+@CucumberOptions(features = {"./src/main/resources/features/globalsqa.feature"},
         glue = {"com.xlm.cucumberdemo.stepdefinitions"},
         plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:Reports/report.html"})
 
